@@ -13,7 +13,7 @@ export class BadMoodComponent {
   public mood: string;
 
   constructor() {
-    this.finalMood = 'Jestem nieszczęśliwy bo nie mam humoru :( Mój aktualny humor to: ' + this.mood;
+    this.finalMood = 'Jestem nieszczęśliwy :( Mój aktualny humor to: ' + this.mood;
 
   }
 }
